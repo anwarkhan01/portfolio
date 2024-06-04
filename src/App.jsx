@@ -26,7 +26,7 @@ const Skills = () => {
       <div className="p-2 bg-white rounded">HTML</div>
       <div className="p-2 bg-white rounded">CSS</div>
       <div className="p-2 bg-white rounded">JavaScript</div>
-      <div className="p-2 bg-white rounded">React</div>
+      <div className="p-2 bg-white rounded">ReactJS</div>
       <div className="p-2 bg-white rounded">Tailwind CSS</div>
       <div className="p-2 bg-white rounded">
         <a href="https://github.com/anwarkhan01" target="_blank">
@@ -65,14 +65,14 @@ const Projects = () => {
       </div>
       <div className="p-4 bg-blue-100 rounded shadow-md">
         <h3 className="text-xl font-semibold text-blue-700">
-          <a href="https://anwarkhan01.github.io/weatherapp/" target="_blank">
+          <a href="https://anwarkhan01.github.io/weather-app/" target="_blank">
             Weather app
           </a>
         </h3>
         <p className="mt-2 text-blue-600">
           This React{" "}
           <a
-            href="https://anwarkhan01.github.io/weatherapp/"
+            href="https://anwarkhan01.github.io/weather-app/"
             target="_blank"
             className="underline"
           >
@@ -84,7 +84,6 @@ const Projects = () => {
           <a
             href="https://openweathermap.org/api"
             target="_blank"
-            rel="noopener noreferrer"
             className="underline"
           >
             OpenWeatherMap
@@ -116,6 +115,16 @@ const Contact = () => {
           target="_blank"
         >
           anwarkhan01
+        </a>
+      </p>
+      <p className="mb-4 text-blue-600">
+        You can also download my resume to know more about me:{" "}
+        <a
+          href="src/assets/resume.pdf"
+          download
+          className="text-blue-800 underline"
+        >
+          Download Resume
         </a>
       </p>
     </div>

@@ -119,11 +119,7 @@ const Contact = () => {
       </p>
       <p className="mb-4 text-blue-600">
         You can also download my resume to know more about me:{" "}
-        <a
-          href="public/resume.pdf"
-          download
-          className="text-blue-800 underline"
-        >
+        <a href="resume.pdf" download className="text-blue-800 underline">
           Download Resume
         </a>
       </p>

@@ -15,20 +15,23 @@ const Introduction = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-blue-500 text-white">
       <h1 className="text-6xl font-bold text-center">Hello, I'm Anwar</h1>
-      <p className="text-2xl mt-3">A front-end web developer</p>
+      <p className="text-2xl mt-3">A fullstack web developer</p>
     </div>
   );
 };
 
 const Skills = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-4 p-4 bg-blue-200 ">
-      <div className="p-2 bg-white rounded">HTML</div>
-      <div className="p-2 bg-white rounded">CSS</div>
-      <div className="p-2 bg-white rounded">JavaScript</div>
-      <div className="p-2 bg-white rounded">ReactJS</div>
-      <div className="p-2 bg-white rounded">Tailwind CSS</div>
-      <div className="p-2 bg-white rounded">
+    <div className="flex flex-wrap justify-center gap-4 p-4 bg-blue-200">
+      <div className="p-2 bg-white rounded shadow-md">HTML</div>
+      <div className="p-2 bg-white rounded shadow-md">CSS</div>
+      <div className="p-2 bg-white rounded shadow-md">JavaScript</div>
+      <div className="p-2 bg-white rounded shadow-md">ReactJS</div>
+      <div className="p-2 bg-white rounded shadow-md">Tailwind CSS</div>
+      <div className="p-2 bg-white rounded shadow-md">NodeJS</div>
+      <div className="p-2 bg-white rounded shadow-md">Mongo DB</div>
+      <div className="p-2 bg-white rounded shadow-md">Express</div>
+      <div className="p-2 bg-white rounded shadow-md">
         <a href="https://github.com/anwarkhan01" target="_blank">
           Git & GitHub
         </a>
@@ -41,54 +44,49 @@ const Projects = () => {
   return (
     <div className="p-4 bg-white rounded shadow-md">
       <h2 className="text-3xl font-bold mb-4 text-blue-500">Projects</h2>
-      <div className="p-4 bg-blue-100 rounded shadow-md">
+
+      <div className="p-4 bg-blue-100 rounded shadow-md mb-4">
         <h3 className="text-xl font-semibold text-blue-700">
-          <a href="https://anwarkhan01.github.io/todo-app/" target="_blank">
-            Todo app
+          <a href="https://markethub.onrender.com" target="_blank">
+            MarketHub
           </a>
         </h3>
         <p className="mt-2 text-blue-600">
-          This React{" "}
           <a
-            href="https://anwarkhan01.github.io/todo-app/"
+            href="https://markethub.onrender.com"
             target="_blank"
             className="underline"
           >
-            Todo app
+            MarketHub
           </a>{" "}
-          allows users to manage a list of tasks with features to add, edit,
-          delete, and mark tasks as completed. The app ensures tasks are unique
-          and non-empty, dynamically resizes input fields for a better user
-          experience, and maintains the state of completed tasks. Custom buttons
-          and responsive design make it user-friendly and intuitive.
+          is a platform that connects individuals with local service providers
+          like plumbers, electricians, and cleaners. Users can search for
+          professionals by profession and view key details, including their
+          location and distance. Service providers can create and manage their
+          profiles, showcasing their expertise.
         </p>
       </div>
+
       <div className="p-4 bg-blue-100 rounded shadow-md">
         <h3 className="text-xl font-semibold text-blue-700">
-          <a href="https://anwarkhan01.github.io/weather-app/" target="_blank">
-            Weather app
+          <a href="https://dsa-tracker.onrender.com" target="_blank">
+            DSA Tracker
           </a>
         </h3>
         <p className="mt-2 text-blue-600">
-          This React{" "}
           <a
-            href="https://anwarkhan01.github.io/weather-app/"
+            href="https://dsa-tracker.onrender.com"
             target="_blank"
             className="underline"
           >
-            weather app
+            DSA Tracker
           </a>{" "}
-          enables users to retrieve real-time weather data for any city
-          worldwide. It displays temperature, humidity, wind speed, visibility,
-          cloud cover, and updates the data regularly. The app uses the{" "}
-          <a
-            href="https://openweathermap.org/api"
-            target="_blank"
-            className="underline"
-          >
-            OpenWeatherMap
-          </a>{" "}
-          API and includes error handling for invalid city names.
+          is a lightweight tool designed to help users track their progress in
+          Data Structures and Algorithms (DSA). Users can save code snippets,
+          mark problems as completed, and add custom problems with optional
+          links. Local storage is used to track progress, save code snippets,
+          and store custom problems with optional links, ensuring seamless and
+          persistent data management.".
         </p>
       </div>
     </div>
@@ -106,7 +104,7 @@ const Contact = () => {
           className="text-blue-800 underline"
           target="_blank"
         >
-          anwarkhan0840@gmail.com
+          anwarkhan84088@gmail.com
         </a>{" "}
         or visit my GitHub account:{" "}
         <a

@@ -47,13 +47,13 @@ const Projects = () => {
 
       <div className="p-4 bg-blue-100 rounded shadow-md mb-4">
         <h3 className="text-xl font-semibold text-blue-700">
-          <a href="https://markethub.onrender.com" target="_blank">
+          <a href="https://markethub-frontend-t145.onrender.com" target="_blank">
             MarketHub
           </a>
         </h3>
         <p className="mt-2 text-blue-600">
           <a
-            href="https://markethub.onrender.com"
+            href="https://markethub-frontend-t145.onrender.com"
             target="_blank"
             className="underline"
           >
@@ -69,13 +69,13 @@ const Projects = () => {
 
       <div className="p-4 bg-blue-100 rounded shadow-md">
         <h3 className="text-xl font-semibold text-blue-700">
-          <a href="https://dsa-tracker.onrender.com" target="_blank">
+          <a href="https://dsa-tracker-32yk.onrender.com" target="_blank">
             DSA Tracker
           </a>
         </h3>
         <p className="mt-2 text-blue-600">
           <a
-            href="https://dsa-tracker.onrender.com"
+            href="https://dsa-tracker-32yk.onrender.com"
             target="_blank"
             className="underline"
           >

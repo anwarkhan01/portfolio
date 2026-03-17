@@ -73,8 +73,7 @@ const Introduction = () => {
         Hi, I'm Anwar
       </h1>
       <p className="text-xl md:text-2xl mt-4 font-light text-center max-w-2xl text-gray-300">
-        A passionate fullstack web developer crafting modern, scalable
-        solutions.
+    Full-Stack Developer building efficient web applications with a focus on scalability, performance, and clean code.
       </p>
       <a
         href="#skills"
